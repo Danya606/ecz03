@@ -10,4 +10,7 @@ int main()
 	y = sqrt(pow(x, 2)) + pow(x, 2);
 
 	printf("y: %ld\n", y);
+
+	y *= 2;
+	printf("y: %ld\n", y);
 }
